@@ -19,6 +19,7 @@
   <textarea id="source">
    <!-- Slideshow Markdown -->
 
+	  
 # Feedback-Driven Product Development 
 	  
 ---
@@ -349,7 +350,10 @@ Iremos formar uma dinâmica no estilo aquário: eu, o navarro e mais 3 participa
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
   </script>
   <script>
-   var slideshow = remark.create();
+   var slideshow = remark.create(
+    countIncrementalSlides: false
+   );
+
   </script>
  </body>
 </html>
